@@ -13,7 +13,7 @@ IMAGE_SAVE_DIR = './gan_images'  # path to save GAN images
 SUMMARY_DIR = './train'
 
 # Data Preprocessing and augmentation parameters
-INPUT_SHAPE = (512, 512, 3)  # size of random crops used for training
+INPUT_SHAPE = (64, 64, 3)  # size of random crops used for training
 FLIP = True  # applies random horizontal and vertical flips
 ROTATE = True  # applies random rotations
 PREPROCESS = 'min-max'  # can be 'min-max' or 'standard'
